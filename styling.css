@@ -1,0 +1,65 @@
+body{
+    background: url(images/pexels-pixabay-268533.jpg) center center fixed;
+    background-size: cover;
+    color: white;
+}
+#header{
+    text-align: center;
+    font-size: 7vw;
+}
+#time{
+    text-align: right;
+    font-size: 4vw;
+
+}
+#mainTime{
+    text-align: center;
+    font-size: 10vw;
+}
+.control{
+    background-color: orange;
+    height: 10vw;
+    width: 10vw;
+    border-radius: 100%;
+    text-align: center;
+    padding: 20% 0;
+    cursor: pointer;
+    font-size: 2.5vw;
+}
+#timecontrol{
+    margin-bottom: 100px;
+}
+#lapshow{
+    max-height: 270px;
+    overflow-y: scroll;
+}
+.lap{
+    height: 80px;
+    border-bottom: 1px solid white;
+    margin-bottom: 10px;
+}
+.lapname{
+    font-size: 1.8em;
+    float: left;
+}
+ .timelap{
+    font-size: 2.0em;
+    float: right;
+    margin-left: 40px;
+    margin-right: 10px;
+    
+}
+
+.laptime{
+    font-size: 2.0em;
+    float: right;   
+}
+.footer{
+    text-align: center;
+    margin-top: 450px;
+    height: 30px;
+    background-color: rgba(0,0,0,0.5);
+    font-size: 20px;
+    color: yellow;
+    font-weight: bolder;
+}
